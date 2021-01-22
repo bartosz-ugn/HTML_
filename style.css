@@ -1,0 +1,36 @@
+.bar{
+    background-color:black;
+    overflow: hidden;
+    width:100%;
+    border: solid black 5px;
+}
+
+.bar a{
+    float:left;
+    text-align:center;
+    padding: 20px 30px;
+    font-size: 30px;
+    font-family:lato;
+    color:white;
+    text-decoration: none;
+}
+
+.bar .active{
+    background-color: #564caf;
+    color:white;
+}
+.bar a:hover{
+    background-color:#968fd4;
+    color:black;
+}
+
+body {
+    background-image:linear-gradient(#766DC1,#C17C6D );
+    width:980px;
+}
+.header{
+    text-align:center;
+    color:white;
+    font-size:20px;
+    font-family:lato;
+}
