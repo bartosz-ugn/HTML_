@@ -34,3 +34,36 @@ body {
     font-size:20px;
     font-family:lato;
 }
+.footer{
+    padding:20px;
+    text-align: center;
+    background: grey;
+}
+.anonser{
+    width: 200px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.anonsh{
+    text-align: center;
+    font-family: lato;
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.huvud{
+    flex: 70%;
+    padding: 20px;
+    background-color: #f1f1f1; 
+}
+.side{
+    flex: 30%;
+    padding:20px;
+    background-color: rgb(179, 171, 171);  
+}
