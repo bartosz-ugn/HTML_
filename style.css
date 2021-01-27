@@ -3,6 +3,10 @@
     overflow: hidden;
     width:100%;
     border: solid black 5px;
+    position: fixed;
+    z-index: 11;
+    top:0;
+    left:0;
 }
 
 .bar a{
@@ -25,6 +29,8 @@
 }
 
 body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-image:linear-gradient(#766DC1,#C17C6D );
     width:980px;
 }
@@ -33,13 +39,18 @@ body {
     color:white;
     font-size:20px;
     font-family:lato;
+    position: relative;
+    top: 45px;
 }
 .footer{
     padding:20px;
     text-align: center;
     background: grey;
+    position:relative;
+    top:40px;
+ 
 }
-.anonser{
+.anonserbild{
     width: 200px;
     height: 300px;
     display: block;
@@ -55,7 +66,8 @@ body {
 }
 .row{
     display: flex;
-    flex-wrap: wrap;
+    position: relative;
+    top:45px;
 }
 .huvud{
     flex: 70%;
