@@ -47,6 +47,7 @@ footer{
     background: rgb(70, 70, 87);
     position:relative;
     border: solid 5px black;
+    top:40px;
 }
 .anonserbild{
     width: 200px;
@@ -123,4 +124,10 @@ iframe{
 }
 .openinghours{
     width:70%;
+}
+.kontaktm{
+    color:white;
+    font-family:lato;
+    font-size:20px;
+    text-align:center;
 }
