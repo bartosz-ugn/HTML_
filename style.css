@@ -131,4 +131,14 @@ iframe{
     font-size:20px;
     text-align:center;
 }
+.objekt{
+    box-sizing:content-box;
+    border:solid;
+    background-color:rgb(129, 124, 146)
+}
+.fordonbild{
+    width: 300px;
+    height: 200px;
+    flex:50%;
+}
 /*f dsf dsf */
