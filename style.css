@@ -8,7 +8,6 @@
     top:0;
     left:0;
 }
-
 .bar a{
     float:left;
     text-align:center;
@@ -34,7 +33,7 @@ body {
     background-image:linear-gradient(#766DC1,#C17C6D );
     width:980px;
 }
-.header{
+header{
     text-align:center;
     color:white;
     font-size:20px;
@@ -42,13 +41,11 @@ body {
     position: relative;
     top: 45px;
 }
-.footer{
+footer{
     padding:20px;
     text-align: center;
     background: grey;
     position:relative;
-    top:40px;
- 
 }
 .anonserbild{
     width: 200px;
@@ -69,12 +66,12 @@ body {
     position: relative;
     top:45px;
 }
-.huvud{
+main{
     flex: 70%;
     padding: 20px;
     background-color: #f1f1f1; 
 }
-.side{
+aside{
     flex: 30%;
     padding:20px;
     background-color: rgb(179, 171, 171);  
