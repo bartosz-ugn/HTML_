@@ -46,6 +46,8 @@ footer{
     text-align: center;
     background: rgb(70, 70, 87);
     position:relative;
+    border: solid 5px black;
+    top:40px;
 }
 .anonserbild{
     width: 200px;
@@ -70,6 +72,7 @@ main{
     flex: 80%;
     padding: 20px;
     background-color: #4b4b69; 
+    border: solid 5px black;
 }
 main h2{
     text-align:center;
@@ -79,4 +82,53 @@ aside{
     flex: 20%;
     padding:20px;
     background-color: rgb(179, 171, 171);  
+    border: solid 5px black;
+    border-left: 0px;
 }
+label{
+    color:white;
+    font-family:lato;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    padding:20px;
+}
+iframe{
+    display: block;
+    margin:0 auto;
+}
+.kontaktaosstext{
+    color:white;
+    font-family:lato;
+    font-size: 30px;
+    text-align:center;
+    padding-bottom:1px;
+}
+#mail{
+    text-decoration:none;
+    color:white;
+}
+.openinghours, th, td{
+    color:white;
+    font-family:lato;
+    border: 2px solid rgba(255, 255, 255, 0.699);
+    padding:15px;
+    text-align:center;
+    border-spacing: 5px;
+    background-color:rgba(0, 0, 0, 0.336);
+    border-collapse:collapse;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.openinghours{
+    width:70%;
+}
+.kontaktm{
+    color:white;
+    font-family:lato;
+    font-size:20px;
+    text-align:center;
+}
+/*f dsf dsf */
