@@ -162,6 +162,8 @@ h1{
     letter-spacing: 1px;
     -webkit-text-stroke: 2px black;
 }
-
-
-
+#map{
+    width:600;
+    height:450;
+    border:0;
+}
