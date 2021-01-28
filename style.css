@@ -132,7 +132,6 @@ iframe{
     text-align:center;
 }
 .objekt{
-<<<<<<< HEAD
     box-sizing:border-box;
     border:solid 3px;
     background-color:rgb(162, 157, 179);
@@ -143,16 +142,11 @@ iframe{
 .objekt:hover{
     border-color:aquamarine;
     background-color:rgb(195, 190, 212);
-=======
-    box-sizing:content-box;
-    border:solid;
-    background-color:rgb(129, 124, 146)
->>>>>>> origin/master
+
 }
 .fordonbild{
     width: 300px;
     height: 200px;
-<<<<<<< HEAD
     margin:10px;
  
 }
@@ -168,9 +162,6 @@ h1{
     letter-spacing: 1px;
     -webkit-text-stroke: 2px black;
 }
-/*f dsf dsf */
-=======
-    flex:50%;
-}
-/*f dsf dsf */
->>>>>>> origin/master
+
+
+
