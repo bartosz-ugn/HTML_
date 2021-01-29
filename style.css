@@ -1,4 +1,3 @@
-
 .bar{
     background-color:black;
     overflow: hidden;
@@ -12,13 +11,12 @@
 .bar a{
     float:left;
     text-align:center;
-    padding: 20px 30px;
-    font-size: 30px;
+    padding: 15px 25px;
+    font-size: 20px;
     font-family:lato;
     color:white;
     text-decoration: none;
 }
-
 .bar .active{
     background-color: #564caf;
     color:white;
@@ -27,7 +25,6 @@
     background-color:#968fd4;
     color:black;
 }
-
 body {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -56,7 +53,7 @@ footer{
     font-family: lato;
 }
 .footer a{
-    text-decoration: underline;
+    text-decoration: none;
     color:white;
 }
 .anonserbild{
@@ -86,7 +83,6 @@ main{
 }
 main h2{
     text-align:center;
-
 }
 aside{
     flex: 20%;
@@ -118,6 +114,9 @@ iframe{
     text-decoration:none;
     color:white;
 }
+#mail:hover{
+    color:teal;
+}
 .openinghours, th, td{
     color:white;
     font-family:lato;
@@ -139,15 +138,15 @@ iframe{
     color:white;
     font-family:lato;
     font-size:20px;
-    text-align:center;
+    text-align:left;
 }
 .objekt,.objektindex2{
-    box-sizing:border-box;
     border:solid 3px;
     background-color:rgb(162, 157, 179);
     display:flex;
     border-radius:10px;
-    margin-bottom:20px;
+    margin-bottom:10px;
+    margin-top:10px;
 }
 .objekt:hover{
     border-color:aquamarine;
@@ -157,7 +156,6 @@ iframe{
     width: 300px;
     height: 200px;
     margin:10px;
- 
 }
 .fordontext{
     display:inline-block;
@@ -171,4 +169,13 @@ h1{
     letter-spacing: 1px;
     -webkit-text-stroke: 2px black;
 }
-
+a:hover{
+    color:teal;
+}
+.forslink{
+    color:rgb(179, 171, 171);
+    text-decoration:none;
+}
+.forslink p{
+    text-align:center;
+}
